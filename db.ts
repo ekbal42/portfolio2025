@@ -49,12 +49,12 @@ export const projects: ProjectType[] = [
   },
   {
     id: 4,
-    name: "FiverX",
+    name: "FiberX",
     description: "My first portfolio website",
     gitLink: null,
     imageLink: "https://i.postimg.cc/vHRNVzRY/fiverx.jpg",
     liveLink: null,
     workDuration: "1 week",
-    tags: ["Golang", "Fiver"],
+    tags: ["Golang", "Fiber"],
   },
 ];
