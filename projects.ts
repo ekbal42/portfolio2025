@@ -1,14 +1,4 @@
-export interface ProjectType {
-  id: number;
-  name: string;
-  description?: string;
-  gitLink?: string | null;
-  imageLink: string;
-  liveLink?: string | null;
-  workDuration: string;
-  tags: string[];
-}
-
+import { ProjectType } from "./src/types";
 export const projects: ProjectType[] = [
   {
     id: 1,
@@ -26,7 +16,7 @@ export const projects: ProjectType[] = [
     description: "My first portfolio website",
     gitLink: null,
     imageLink: "https://i.postimg.cc/Hx68GjtF/tterminal-1.png",
-    liveLink: "https://porao.vercel.app",
+    liveLink: "https://porao.com.bd",
     workDuration: "1 week",
     tags: [
       "react",
@@ -49,12 +39,12 @@ export const projects: ProjectType[] = [
   },
   {
     id: 4,
-    name: "FiberX",
+    name: "Shinabe Design",
     description: "My first portfolio website",
     gitLink: null,
-    imageLink: "https://i.postimg.cc/vHRNVzRY/fiverx.jpg",
-    liveLink: null,
+    imageLink: "https://i.postimg.cc/1XtwXj60/tterminal.png",
+    liveLink: "https://projectdev2024.vercel.app",
     workDuration: "1 week",
-    tags: ["Golang", "Fiber"],
+    tags: ["tailwindcss", "react", "vite"],
   },
 ];

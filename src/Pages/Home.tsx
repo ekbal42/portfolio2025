@@ -1,5 +1,6 @@
 import { Code, LucideSquareArrowOutUpRight } from "lucide-react";
-import { projects, ProjectType } from "../../db";
+import { projects } from "../../projects";
+import { ProjectType } from "../types";
 export default function Home() {
   return (
     <>
